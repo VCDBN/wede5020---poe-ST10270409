@@ -24,6 +24,28 @@
 <li><a href="Contact us.html">Contact us</a></li>
 </ul>
 </div>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+<center><h2>Contact information</h2></center>
+
+<div>
+<center><p>Contact number - 081-589-4920</p></center>
+<center><a href="#" onclick="window.open('https://whatsapp.com//','_blank')">Whatsapp.com</a></center>
+<center><img src="Images\whatsapp.jpg" width="250" height="150"></center>
+</div>
+
+<div>
+  <center><p>Gmail - Amanzi@gmail.com</p></center>
+  <center><a href="#" onclick="window.open('https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser','_blank')">Gmail.com</a></center>
+  <center><img src="Images\Gmail-Logo.jpg" width="300" height="150"></center>
+  </div>
+
 <div style="padding-left:16px">
 <br>
 <b>If you have any questions, don't hesitate to ask.</b>
@@ -34,6 +56,7 @@
 <label for="lname">Last Name</label><br>
 <input type="text" id="lname" name="lname" value="Surname"><br>
 <label for="province">Which province are you in?</label>
+<br>
 <select id="Province" name="Province">
   <option value="Gauteng">Gauteng</option>
   <option value="Kwa-Zulu-Natal">Kwa-Zulu-Natal</option>
@@ -45,12 +68,13 @@
   <Option value="North West">North West</Option>
 </select>
 <br>
-<label for="Message">Message</label>
-<textarea id="Message" name="Message" placeholder="Message" style="height:200px"></textarea>
+<label for="Message">Message</label><br>
+<textarea id="Message" name="Message" placeholder="Message" style="height:200px">
+</textarea>
 <br>
 <input type="submit" value="submit">
+
 </form> 
-<br>
 <div class="footer">
 <p>phone number</p>
 <p>073-795-7746</p>
@@ -60,6 +84,9 @@
 <p>lonwabog5@gmail.com</p>
 <p>ST10270409@vcconnect.edu.za</p>
 </div>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUqzeaJtypGnnqckz2YnbUaCAXRMNbkzGO7bl2yD869fpyrQ/viewform?embedded=true" width="640" height="991" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 </footer>
 </body>
 </html>
